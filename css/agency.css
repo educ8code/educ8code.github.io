@@ -109,7 +109,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: darkslateblue;
 }
 
 #mainNav .navbar-toggler {
@@ -123,13 +123,19 @@ img::-moz-selection {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+
+
+
+
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: white;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+
+
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: black;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -142,7 +148,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -165,7 +171,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: darkslateblue;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -182,6 +188,20 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+header.masthead.bio {
+  background-image: url("../img/biography.PNG");
+}
+
+header.masthead.family {
+  background-image: url("../img/family.jpg");
+}
+
+header.masthead.goals {
+  background-image: url("../img/goals1.PNG")
+}
+
+
 
 header.masthead .intro-text {
   padding-top: 150px;
@@ -209,6 +229,8 @@ header.masthead .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+
+ 
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
@@ -594,9 +616,9 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
