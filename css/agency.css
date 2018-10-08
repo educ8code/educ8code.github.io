@@ -11,6 +11,8 @@ body {
 
 p {
   line-height: 1.75;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 a {
@@ -40,13 +42,13 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 54px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 75px;
@@ -128,14 +130,14 @@ img::-moz-selection {
 
 
 #mainNav .navbar-brand {
-  color: white;
+  color: darkslateblue;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: black;
+  color: yellow;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -143,12 +145,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: darkslateblue;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
+  color: yellow;
 }
 
 @media (min-width: 992px) {
@@ -199,6 +201,10 @@ header.masthead.family {
 
 header.masthead.goals {
   background-image: url("../img/goals1.PNG")
+}
+
+header.masthead.child {
+  background-image: url("../img/child.png")
 }
 
 
